@@ -1,6 +1,8 @@
 import { Template } from 'meteor/templating';
+import { AdminData } from '../imports/api/adminData.js';
 import '../../client/layouts/homeLayout.html';
-import './testTemplate.html'; 
+import './testTemplate.html';
+import './adminLayout.js';
 
 Template.homeLayout.helpers({
 	tests: [

@@ -1,0 +1,15 @@
+<template name="homeLayout">
+<body>
+	<div class="container">
+	  <header>  
+	    <h1>Tests app</h1>
+	    <a class="btn btn-info" href="/admin" role="button">Admin Pannel</a>
+	  </header>
+	  <ul class="home1">
+	    {{#each tests}}
+	      {{> test}}
+	    {{/each}}
+	  </ul>
+	</div>
+</body>
+</template>

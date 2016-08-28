@@ -1,6 +1,6 @@
 import { Template } from 'meteor/templating';
 import '../../client/layouts/homeLayout.html';
-import './test.html'; 
+import './testTemplate.html'; 
 
 Template.homeLayout.helpers({
 	tests: [

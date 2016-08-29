@@ -1,5 +1,5 @@
 import { Template } from 'meteor/templating';
-import { AdminData } from '../imports/api/adminData.js';
+import { AdminData } from '../api/adminData.js';
 import '../../client/layouts/homeLayout.html';
 import './testTemplate.html';
 import './adminLayout.js';
